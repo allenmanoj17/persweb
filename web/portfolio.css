@@ -23,7 +23,7 @@
       font-size: 60%;
     }
   }
-  
+
   @media (max-width: 61.25em) {
     html {
       font-size: 58%;
@@ -97,7 +97,14 @@
     
     margin-right: 2rem;
   }
-
+  @media (max-width: 75em) {
+    .nav-list, .icons {
+      font-size: 60%;
+      justify-content: center;
+      text-align: right;
+      align-items: right;
+    }
+  }
   
   .nav-list a {
     display: block;
