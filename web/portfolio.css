@@ -99,10 +99,8 @@
   }
   @media (max-width: 75em) {
     .nav-list, .icons {
-      font-size: 60%;
-      justify-content: center;
-      text-align: right;
-      align-items: right;
+      font-size: 50%;
+
     }
   }
   
@@ -266,7 +264,12 @@ font-family: cursive;
 
   
 /* About */
+@media (max-width: 75em) {
+  .about{
+    font-size: 100%;
 
+  }
+}
 .about-section{
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -287,11 +290,9 @@ font-family: cursive;
 }
 
 .about-section > p{
- margin-left: 200px;
- margin-right: 200px;
+text-align: center;
  margin-bottom: 80px;
- font-size: 25px;
- color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .educ{
